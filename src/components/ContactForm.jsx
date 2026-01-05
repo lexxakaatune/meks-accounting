@@ -20,10 +20,9 @@ export function ContactForm({ position }) {
   }
 
   const handleSubmit = (e) => {
-    e.preventDefault();
 
-    const phoneNumber = "2348189178733";
-    const text = `Hello my name is ${formData.name}. My email is ${formData.email}. My agency is ${formData.agency} Message: ${formData.message}`;
+    const phoneNumber = "447438155154";
+    const text = `Hello my name is ${formData.name}. My email is ${formData.email}. My Phone number is ${formData.phone} My agency is ${formData.agency} Message: ${formData.message}`;
     const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(text)}`;
 
     window.open(url, "_blank");
@@ -38,6 +37,7 @@ export function ContactForm({ position }) {
           <input 
             type="text"
             id="name" 
+            name='name'
             placeholder="Brian Clark" 
             onChange={handleChange}
             required
@@ -48,6 +48,7 @@ export function ContactForm({ position }) {
           <input 
             type="email" 
             id="email" 
+            name='email'
             placeholder="example@yourgmail.com" 
             onChange={handleChange}
             required
@@ -58,6 +59,7 @@ export function ContactForm({ position }) {
           <input 
             type="tel" 
             id="phone" 
+            name='phone'
             placeholder="(123) 456 - 7890" 
             onChange={handleChange}
             required
@@ -67,7 +69,8 @@ export function ContactForm({ position }) {
           <label htmlFor="company">Company</label>
           <input 
             type="text" 
-            id="company" 
+            id="company"
+            name='agency' 
             placeholder="BRIX Agency" 
             onChange={handleChange}
             required
@@ -76,7 +79,8 @@ export function ContactForm({ position }) {
         <p className='flex-grow'>
           <label htmlFor="msg">Message</label>
           <textarea 
-            id="msg" 
+            id="msg"
+            name='message' 
             placeholder="Type your message here..." 
             onChange={handleChange}
             required
