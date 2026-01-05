@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { aboutBig, aboutSmall, explore, bearBull, mecha, roboHand } from '../assets/image';
+import { aboutBig, aboutSmall } from '../assets/image';
 
 const About = () => {
   return (
@@ -27,59 +27,41 @@ const About = () => {
 
       <main className="main">
         <h2 className="about__h2">Our Mission</h2>
-        <p className="big-text">To empower business owners with financial clarity, compliance, confidence, and peace of mind through accurate, efficient, and technology-led accounting services.</p>
+        <p className="about__p">To empower business owners with financial clarity, compliance, confidence, and peace of mind through accurate, efficient, and technology-led accounting services.</p>
 
-        <article className="about__article">
-          <h2 className="about__h2">We believe that good accounting is about more than numbers. It’s about trust, transparency, and ethical responsibility. We take the time to understand your business and provide tailored financial solutions that support informed decision-making, long-term sustainability, and full compliance with professional and regulatory standards.</h2>
+        <section className='about__section'>
+          <h2 className="about__h2">Our Approach</h2>
+          <p className="about__p">We believe that good accounting is about more than numbers. It’s about trust, transparency, and ethical responsibility. We take the time to understand your business and provide tailored financial solutions that support informed decision-making, long-term sustainability, and full compliance with professional and regulatory standards.</p>
+          <p className='about__P'>Our work is guided by the ethical principles promoted by the <strong>Association of Chartered Certified Accountants (ACCA)</strong>, ensuring that our services are delivered with integrity, objectivity, and professional competence always.</p>
+        </section>
 
-          <p className="big-text">Our work is guided by the ethical principles promoted by the Association of Chartered Certified Accountants (ACCA), ensuring that our services are delivered with integrity, objectivity, and professional competence always.</p>
-
-          <section className="about about__section">
-            <figure>
-              <img src={explore} alt="explore"/>
-            </figure>
-            <aside className="about__aside">
+        <section className='about__section'>
+          <h2 className="about__h2 center">Our Values</h2>
+          <ul className=' about__ul none'>
+            <li>
               <h3>Integrity </h3>
               <p>We act honestly and transparently in all our dealings.</p>
-            </aside>
-          </section>
-          <section className="about about__section">
-            <aside className="about__aside">
+            </li>
+            <li>
               <h3>Professionalism </h3>
-              <p>We maintain high standards of competence, care, and conduct.</p> 
-            </aside>
-            <figure>
-                <img src={bearBull} alt="bear and bulls"/>
-            </figure>      
-          </section>
-          <section className="about about__section">
-            <figure>
-                <img src={mecha} alt="mecha"/>
-            </figure>
-            <aside className="about__aside">
+              <p>We maintain high standards of competence, care, and conduct.</p>
+            </li>
+            <li>
               <h3>Objectivity & Reliability </h3>
               <p>We provide accurate, unbiased financial information you can trust.</p>
-            </aside>
-          </section>
-          <section className="about about__section">
-            <aside className="about__aside">
+            </li>
+            <li>
               <h3>Confidentiality </h3>
               <p>Your financial information is handled with discretion and respect.</p>
-            </aside>
-            <figure>
-              <img src={roboHand} alt="robo hand"/>
-            </figure>
-          </section>
-          <section className="about about__section">
-            <figure>
-                <img src={mecha} alt="mecha"/>
-            </figure>
-            <aside className="about__aside">
+            </li>
+            <li>
               <h3>Innovation</h3>
               <p>We embrace modern tools and technology to deliver efficient, forward-thinking solutions.</p>
-            </aside>
-          </section>
-        </article>
+            </li>
+          </ul>
+        </section>        
+
+        
 
         <section className="center">
           <h2>Let's Work Together</h2>

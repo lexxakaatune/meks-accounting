@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { FaShieldAlt, FaMicrochip, FaUserTie, FaPhoneAlt, FaComments} from "react-icons/fa";
+import { FaUserGraduate, FaMicrochip, FaHandsHelping, FaBalanceScale, FaPhoneAlt, FaComments} from "react-icons/fa";
 import { Link } from "react-router-dom";
 import {hero1, hero2, hero3, aboutBig, aboutSmall, cbp, vts, aap, cfp} from "../assets/image";
 import {ContactForm} from "../components/ContactForm";
@@ -85,20 +85,6 @@ const Home = () => {
             <p className="about__p">
               We are a UK-based accounting firm committed to helping businesses achieve financial clarity and peace of mind. Our team combines professional expertise with modern technology to deliver bookkeeping, VAT, and reporting solutions that empower better business decisions. We pride ourselves on accuracy, reliability, and a client-first approach.
             </p>
-            <ul className="about__ul none">
-              <li className="about__li">
-                <strong>500+</strong><br />
-                <small>Worldwide Clients</small>
-              </li>
-              <li className="about__li">
-                <strong>124+</strong><br />
-                <small>Professional Teams</small>
-              </li>
-              <li className="about__li">
-                <strong>155+</strong><br />
-                <small>Total Awards</small>
-              </li>
-            </ul>
             <Link to="/about">Learn More</Link>
           </aside>
         </section>
@@ -109,7 +95,7 @@ const Home = () => {
             <p className="big-text">Choose Smart Bookkeeping with us</p>
           </div>
           <fieldset className="why__fieldset">
-            <legend><FaShieldAlt /></legend>
+            <legend><FaUserGraduate /></legend>
             <h3>Experienced & Qualified </h3>
             <p>Over 15 years of professional accounting experience.</p>
           </fieldset>
@@ -119,23 +105,26 @@ const Home = () => {
             <p>We use modern accounting software for efficiency and accuracy.</p>
           </fieldset>
           <fieldset className="why__fieldset">
-            <legend><FaUserTie /></legend>
+            <legend><FaHandsHelping /></legend>
             <h3>Personalised Support</h3>
             <p>Every client receives one-to-one service tailored to their needs.</p>
           </fieldset>
           <fieldset className="why__fieldset">
-            <legend><FaComments /></legend>
+            <legend><FaBalanceScale /></legend>
             <h3>Transparent Fees</h3>
             <p>Clear, fair, and upfront pricing — no hidden surprises.</p>
           </fieldset>
         </section>
 
-        <section className="service">
+        <section id="service" className="service">
           <h2 className="h2">Our Services</h2>
           <div className="service__div">
             <p className="big-text">Our Professional Accounting Services</p>
             <p>We offer a comprehensive range of services to help small and medium-sized businesses stay financially organized and compliant.</p>
           </div>
+          <p className="service__p">
+            <Link className="btn none service-link" to="service">Services</Link>
+          </p>          
 
           <div className="service__div">
             <figure className="service__figure">

@@ -161,6 +161,11 @@
   gap: 0.5rem;
 }
 
+.service__p {
+  display: flex;
+  justify-content: end;
+}
+
 .service__figure {
   background-color: #eee;
   width: 300px;

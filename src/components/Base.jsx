@@ -7,8 +7,9 @@ export const Header = () => {
   const [toggle, setToggle] = useState('hide');
   const pages = {
     Home: '/', 
-    Contact: '/Contact',
-    About: '/About'
+    About: 'About',
+    Services: 'Service',
+    Contact: 'Contact'
   };
   const { pathname } = useLocation();
 
@@ -45,7 +46,7 @@ export const Header = () => {
               );
             } else {
               return (
-                <Link to={`/${page}`} key={page} className={pathname === to ? "active yes none" : 'none'}>
+                <Link to={`/${to}`} key={page} className={pathname === to ? "active yes none" : 'none'}>
                   <li className="header__li" onClick={toggleNav}>{page}</li>
                 </Link>
               );

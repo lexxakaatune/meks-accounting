@@ -5,12 +5,14 @@ import About from './pages/About';
 import { Privacy, Terms } from './components/TermsPolicy';
 import Missing from './pages/Missing';
 import Contact from './pages/Contact';
+import Service from './pages/Service';
 
 function App() {
   return (
     <Routes>
       <Route path='/*' element={<Layout/>}>
         <Route index element={<Home />}/> 
+        <Route path='service' element={<Service />}/>
         <Route path='contact' element={<Contact />}/>
         <Route path='about' element={<About />}/>
         <Route path='privacy' element={<Privacy />}/>
