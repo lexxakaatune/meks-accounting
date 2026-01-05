@@ -50,7 +50,7 @@ const Home = () => {
           </p>
         </div>
         <figure className="hero__figure">
-          <img id="heroImg" src={image.imageSrc} className="hero__figure_img" alt="join image tester" title="join" width="100" height="100" />
+          <img id="heroImg" src={image.imageSrc} className="hero__figure_img" alt="join tester" title="join" width="100" height="100" />
           <figcaption className="hero__figcaption">
             {images.map((image) => (
               <img
