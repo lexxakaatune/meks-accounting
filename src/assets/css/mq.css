@@ -1,0 +1,150 @@
+@media screen and (min-width: 800px) {
+  /* Utilities classes*/
+  .flex {
+    flex-direction: row;
+  }
+
+  /* header section */
+  .title {
+    font-size: 1.5rem;
+  }
+  
+  .header__nav {
+    background-color: transparent;
+    color: var(--font-color);
+    width: max-content;
+    height: fit-content;
+    display: flex;    
+    position: static;
+  }
+
+  .header__ul {
+    flex-direction: row;
+  }
+
+  .header__btn {
+    display: none;
+  }
+  /* first hero sec */
+  .hero1 {
+    display: flex;
+    justify-content: center;   
+    align-items: center;   
+    gap: 10px;
+  }
+
+  .hero1 .hero__div,
+  .hero1 .hero__figure {
+    max-width: 50%;
+  }
+
+  /* //HERO SECTION */
+  .hero {
+    height: calc(100dvh - 50px);
+    flex-direction: row;    
+  }
+
+  .hero__div {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero__figure {
+    min-width: 50%;
+    height: 100%;
+    position: relative;
+  }
+
+  .hero__figcaption {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: -20px;
+  }
+
+  /* ABOUT US SECTION */
+  .about {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.25rem;
+  }
+
+  .about__figure, 
+  .about__aside {
+    max-width: 50%;
+  }
+
+  /* // WHY SECTION */
+  .why {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0.25rem;
+  }
+  
+  .why__div,
+  .why__fieldset {
+    font-size: 0.7em;
+    width: clamp(200px, 32%, 400px);
+    height: 150px;
+  }
+
+  .why__div {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* Service section */
+ 
+  .service__div {
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .service__div p{
+    max-width: 50%;
+  }
+
+  .service__figure {
+    width: 30%;
+  }
+
+  /* //TRUST SECTION */
+  .trust__ul li {
+    max-width: 120px;
+  }
+
+  /* // CONTACT SECTION */
+  .contact {
+    height: 60vh;
+    display: flex;
+  }
+
+  .contact__div,
+  .contact__figure {
+    min-width: 50%;
+  }
+
+  .home.contact__form {
+    top: auto;
+    right: -20%;
+  }
+      
+  /* // ABOUT PAGE */
+  .card__section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+}

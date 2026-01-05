@@ -1,0 +1,13 @@
+.contactHeroSection {
+  background-image: var(--lg), url(/src/assets/images/contact.jpg);
+  background-position: center;
+}
+
+.contact__div {
+  margin: auto;
+}
+
+.contact__form {
+  margin: 1rem auto;
+}
+
