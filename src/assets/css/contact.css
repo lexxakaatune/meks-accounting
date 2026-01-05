@@ -11,3 +11,7 @@
   margin: 1rem auto;
 }
 
+.contact__form #email {
+  text-transform: lowercase;
+}
+

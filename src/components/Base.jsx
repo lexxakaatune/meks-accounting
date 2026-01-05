@@ -7,9 +7,9 @@ export const Header = () => {
   const [toggle, setToggle] = useState('hide');
   const pages = {
     Home: '/', 
-    About: 'About',
-    Services: 'Service',
-    Contact: 'Contact'
+    About: '/About',
+    Services: '/Services',
+    Contact: '/Contact'
   };
   const { pathname } = useLocation();
 
@@ -46,7 +46,7 @@ export const Header = () => {
               );
             } else {
               return (
-                <Link to={`/${to}`} key={page} className={pathname === to ? "active yes none" : 'none'}>
+                <Link to={`/${page}`} key={page} className={pathname === to ? "active yes none" : 'none'}>
                   <li className="header__li" onClick={toggleNav}>{page}</li>
                 </Link>
               );
@@ -60,7 +60,13 @@ export const Header = () => {
 }
 
 export const Footer = () => {
-  const pages = ['Home', 'About', 'Contact', 'Services']
+  const pages = {
+    Home: '/', 
+    About: '/About',
+    Services: '/Services',
+    Contact: '/Contact'
+  };
+  const { pathname } = useLocation();
 
   const year = new Date().getFullYear();
   return (
@@ -77,9 +83,21 @@ export const Footer = () => {
         <li>
           <ul className="none">
             <li><h3 className="footer__h3 nowrap">Useful Links</h3></li>
-            {pages.map((page) => (
-              <li key={page} className="footer__li nowrap">{page}</li>
-            ))}
+            {Object.entries(pages).map(([page, to]) => {
+              if (page === 'Home') {
+                return (
+                  <Link to='/' key={page} className={pathname === to ? "active yes none" : 'none'}>
+                    <li className="header__li">{page}</li>
+                  </Link>
+                );
+              } else {
+                return (
+                  <Link to={`/${page}`} key={page} className={pathname === to ? "active yes none" : 'none'}>
+                    <li className="header__li">{page}</li>
+                  </Link>
+                );
+              }
+            })}
           </ul>
         </li>         
       </ol>
