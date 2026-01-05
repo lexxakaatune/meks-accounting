@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/meks-accounting/static/css/main.76199b2c.css",
-    "main.js": "/meks-accounting/static/js/main.21053281.js",
+    "main.css": "/meks-accounting/static/css/main.799e76d2.css",
+    "main.js": "/meks-accounting/static/js/main.be2a8d4c.js",
     "static/media/hero3.jpg": "/meks-accounting/static/media/hero3.ddd9fc046210a1784814.jpg",
     "static/media/hero1.jpg": "/meks-accounting/static/media/hero1.747b8e690fbae14820ce.jpg",
     "static/media/hero2.jpg": "/meks-accounting/static/media/hero2.45d888326a64b5abb8d5.jpg",
@@ -17,11 +17,11 @@
     "static/media/vts.jpg": "/meks-accounting/static/media/vts.ab99180c1d4892b3ee58.jpg",
     "static/media/robo-hand__.svg": "/meks-accounting/static/media/robo-hand__.e8f66ddede0799ad8c1cee851e9120fb.svg",
     "index.html": "/meks-accounting/index.html",
-    "main.76199b2c.css.map": "/meks-accounting/static/css/main.76199b2c.css.map",
-    "main.21053281.js.map": "/meks-accounting/static/js/main.21053281.js.map"
+    "main.799e76d2.css.map": "/meks-accounting/static/css/main.799e76d2.css.map",
+    "main.be2a8d4c.js.map": "/meks-accounting/static/js/main.be2a8d4c.js.map"
   },
   "entrypoints": [
-    "static/css/main.76199b2c.css",
-    "static/js/main.21053281.js"
+    "static/css/main.799e76d2.css",
+    "static/js/main.be2a8d4c.js"
   ]
 }
