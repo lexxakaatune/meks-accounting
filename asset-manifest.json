@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/meks-accounting/static/css/main.97dd7ab8.css",
+    "main.js": "/meks-accounting/static/js/main.8e45413e.js",
+    "static/media/hero3.jpg": "/meks-accounting/static/media/hero3.ddd9fc046210a1784814.jpg",
+    "static/media/hero1.jpg": "/meks-accounting/static/media/hero1.747b8e690fbae14820ce.jpg",
+    "static/media/hero2.jpg": "/meks-accounting/static/media/hero2.45d888326a64b5abb8d5.jpg",
+    "static/media/about.jpg": "/meks-accounting/static/media/about.e56cb67007793bf61bc6.jpg",
+    "static/media/explore__.svg": "/meks-accounting/static/media/explore__.d739802b589fc904dc1231d7072f417b.svg",
+    "static/media/bear-bulls__.svg": "/meks-accounting/static/media/bear-bulls__.edba2008a8d8cc725ec6eba91f2548a4.svg",
+    "static/media/contact.jpg": "/meks-accounting/static/media/contact.2fb26adb865af8d8c284.jpg",
+    "static/media/cfp.jpg": "/meks-accounting/static/media/cfp.bc82a8c3680111268ad0.jpg",
+    "static/media/mecha__.svg": "/meks-accounting/static/media/mecha__.216a338d25e5f278108cb93ef52ec40c.svg",
+    "static/media/mekslogo.jpg": "/meks-accounting/static/media/mekslogo.9971e3be563cd797efcc.jpg",
+    "static/media/aap.jpg": "/meks-accounting/static/media/aap.84942eeda94ac3143ea9.jpg",
+    "static/media/cbp.jpg": "/meks-accounting/static/media/cbp.a830461fe8bdb5c3a9c6.jpg",
+    "static/media/vts.jpg": "/meks-accounting/static/media/vts.ab99180c1d4892b3ee58.jpg",
+    "static/media/robo-hand__.svg": "/meks-accounting/static/media/robo-hand__.e8f66ddede0799ad8c1cee851e9120fb.svg",
+    "index.html": "/meks-accounting/index.html",
+    "main.97dd7ab8.css.map": "/meks-accounting/static/css/main.97dd7ab8.css.map",
+    "main.8e45413e.js.map": "/meks-accounting/static/js/main.8e45413e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.97dd7ab8.css",
+    "static/js/main.8e45413e.js"
+  ]
+}
