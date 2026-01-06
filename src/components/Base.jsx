@@ -27,6 +27,7 @@ export const Header = () => {
       setToggle('hide')
     }
   }
+  const year = new Date().getFullYear();
 
   return (
     <header className='header'>
@@ -52,6 +53,7 @@ export const Header = () => {
             }
           })}
         </ul>
+        <small className="center">&copy; {year} Meks Accounting Services | <Link to="/Privacy">Privacy Policy</Link> | <Link to="/Terms">Terms & Conditions</Link> </small>
       </nav>
       <button className="header__btn active yes" onClick={toggleNav}>menu</button>
     </header>
