@@ -1,27 +1,25 @@
 {
   "files": {
-    "main.css": "/meks-accounting/static/css/main.799e76d2.css",
-    "main.js": "/meks-accounting/static/js/main.be2a8d4c.js",
+    "main.css": "/meks-accounting/static/css/main.0b22e016.css",
+    "main.js": "/meks-accounting/static/js/main.6e6e2695.js",
     "static/media/hero3.jpg": "/meks-accounting/static/media/hero3.ddd9fc046210a1784814.jpg",
     "static/media/hero1.jpg": "/meks-accounting/static/media/hero1.747b8e690fbae14820ce.jpg",
     "static/media/hero2.jpg": "/meks-accounting/static/media/hero2.45d888326a64b5abb8d5.jpg",
     "static/media/about.jpg": "/meks-accounting/static/media/about.e56cb67007793bf61bc6.jpg",
-    "static/media/explore__.svg": "/meks-accounting/static/media/explore__.d739802b589fc904dc1231d7072f417b.svg",
-    "static/media/bear-bulls__.svg": "/meks-accounting/static/media/bear-bulls__.edba2008a8d8cc725ec6eba91f2548a4.svg",
     "static/media/contact.jpg": "/meks-accounting/static/media/contact.2fb26adb865af8d8c284.jpg",
     "static/media/cfp.jpg": "/meks-accounting/static/media/cfp.bc82a8c3680111268ad0.jpg",
-    "static/media/mecha__.svg": "/meks-accounting/static/media/mecha__.216a338d25e5f278108cb93ef52ec40c.svg",
+    "static/media/bsr.jpg": "/meks-accounting/static/media/bsr.12723dc2f220e5aaef20.jpg",
     "static/media/mekslogo.jpg": "/meks-accounting/static/media/mekslogo.9971e3be563cd797efcc.jpg",
+    "static/media/serviceHero.jpg": "/meks-accounting/static/media/serviceHero.b7bff5745a41fb2a6e3c.jpg",
     "static/media/aap.jpg": "/meks-accounting/static/media/aap.84942eeda94ac3143ea9.jpg",
     "static/media/cbp.jpg": "/meks-accounting/static/media/cbp.a830461fe8bdb5c3a9c6.jpg",
     "static/media/vts.jpg": "/meks-accounting/static/media/vts.ab99180c1d4892b3ee58.jpg",
-    "static/media/robo-hand__.svg": "/meks-accounting/static/media/robo-hand__.e8f66ddede0799ad8c1cee851e9120fb.svg",
     "index.html": "/meks-accounting/index.html",
-    "main.799e76d2.css.map": "/meks-accounting/static/css/main.799e76d2.css.map",
-    "main.be2a8d4c.js.map": "/meks-accounting/static/js/main.be2a8d4c.js.map"
+    "main.0b22e016.css.map": "/meks-accounting/static/css/main.0b22e016.css.map",
+    "main.6e6e2695.js.map": "/meks-accounting/static/js/main.6e6e2695.js.map"
   },
   "entrypoints": [
-    "static/css/main.799e76d2.css",
-    "static/js/main.be2a8d4c.js"
+    "static/css/main.0b22e016.css",
+    "static/js/main.6e6e2695.js"
   ]
 }
