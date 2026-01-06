@@ -1,4 +1,4 @@
-import {cbp, vts, aap, cfp, bsr, serviceHero} from '../assets/image';
+import {cbp, vts, aap, cfp, bsr} from '../assets/image';
 import { FaPhoneAlt, FaComments } from 'react-icons/fa'
 import { Link } from 'react-router-dom';
 
@@ -24,8 +24,8 @@ const Service = () => {
           </ul>
           <figure className="service__figure">
             <img src={cbp} alt="computerised bookkeeping" />
-            <figcaption className="service__figcaption">By keeping your books accurate and up to date, we give you clear visibility over your finances and free up your time to focus on running and growing your business.</figcaption>
           </figure>
+          <p>By keeping your books accurate and up to date, we give you clear visibility over your finances and free up your time to focus on running and growing your business.</p>
         </section>
 
         <section className="service__section">
@@ -41,8 +41,8 @@ const Service = () => {
           </ul>
           <figure className="service__figure">
             <img src={vts} alt="Vat and Tax services" />
-            <figcaption className="service__figcaption">We ensure all figures are accurately reported to HMRC and submitted on time, giving you confidence and peace of mind.</figcaption>
           </figure>
+          <p>We ensure all figures are accurately reported to HMRC and submitted on time, giving you confidence and peace of mind.</p>
         </section>
 
         <section className="service__section">

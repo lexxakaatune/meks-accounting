@@ -181,7 +181,7 @@
 }
 
 .service__figcaption {
-  border-left: 5px solid var(--bgcolor);
+  border-left: 5px solid var(--highlight);
   background-color: var(--body-bgcolor);
   padding: 0.5rem;
   height: 60px;
