@@ -1,6 +1,6 @@
 /* //ABOUT PAGE HERO */
 .about__hero {
-  background-color: darkgreen;
+  background-color: var(hero-bgcolor);
   background-image: var(--lg), url('../images/about.jpg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -27,8 +27,8 @@
 }
 
 .about__ul li {
-  background-color: var(--bgcolor);
-  color: var(--reverse-font-color);
+  background-color: var(--highlight);
+  color: var(--font-color);
   width: 200px;
   margin: auto;
   padding: 0.25rem;

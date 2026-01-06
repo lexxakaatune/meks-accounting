@@ -39,7 +39,7 @@
 
 .hero__figure_img {
   border-radius: 200px;
-  box-shadow: -5px -5px 5px 5px var(--header-bgcolor);
+  box-shadow: 0px 0px 3px 3px var(--highlight);
   width: 200px;
   height: 280px;
 }
@@ -132,7 +132,7 @@
 
 /* Why SECTION */
 .why {
-  background-color: var(--bgcolor);
+  background-color: var(--highlight);
   color: var(--reverse-font-color);
   min-height:50vh;
   padding: 1rem;
@@ -162,6 +162,7 @@
 }
 
 .service__p {
+  margin-bottom: 0.5rem;
   display: flex;
   justify-content: end;
 }
@@ -181,11 +182,11 @@
 
 .service__figcaption {
   border-left: 5px solid var(--bgcolor);
-  background-color: var(--reverse-font-color);
+  background-color: var(--body-bgcolor);
   padding: 0.5rem;
-  height: 200px;
+  height: 60px;
   position: absolute;
-  top: 50%;
+  top: 90%;
   right: 0.5rem;
   bottom: -30px;
   left: 0.5rem;
@@ -196,26 +197,18 @@
   }
 }
 
-/* TRUST SECTION */
-.trust {
-  background-color: var(--bgcolor);
-  color: var(--reverse-font-color);
+.service__hero {
+  background-image: var(--lg), url(/src/assets/images/serviceHero.jpg);
+  background-position: center;
+  min-height: 40vh;
+  padding: 0.5rem;
+}
+
+.service__ul {
   margin-top: 1rem;
-  padding: 1rem;
+  margin-left: 2rem;
 }
 
-.trust__ul {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  gap: 0.5rem;
-}
-
-.trust__ul li {
-  text-align: center;
-  width: 32%;
-}
 
 /* CONTACT SECTION */
 .contact {
@@ -229,9 +222,10 @@
 .contact__div {
   min-height: 40vh;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
+
 .home.contact__div {
   position: relative;
 }
@@ -245,6 +239,7 @@
 }
 
 .home.contact__form {
+  margin: 1rem auto;
   position: absolute;
   top: 20%;
 }

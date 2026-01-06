@@ -1,6 +1,7 @@
-.contactHeroSection {
+.contact__hero {
   background-image: var(--lg), url(/src/assets/images/contact.jpg);
   background-position: center;
+  min-height: 40vh;
 }
 
 .contact__div {

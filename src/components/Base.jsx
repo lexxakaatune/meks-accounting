@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { meksLogo } from "../assets/image";
-import { Socials } from "./ContactForm"
 
 export const Header = () => {
   const [toggle, setToggle] = useState('hide');
@@ -76,9 +75,8 @@ export const Footer = () => {
       </figure>
       <ol className="footer__ul none">
         <li className="flex-grow">
-          <h2 className="footer__h2 nowrap">MEKS Accounting</h2>
-          <p className="footer__p">We boost a team of skilled and qualified professionals ready accuracy, integrity, and growth at every step. <br /> Trusted financial guidance for businesses and individuals.</p>
-          <Socials />
+          <h2 className="footer__h2 nowrap">Meks Accounting Services</h2>
+          <p className="footer__p">Providing reliable, ethical, and professional accounting support to businesses and individuals across the UK. Trusted financial guidance built on integrity, expertise, and modern accounting practices.</p>
         </li>
         <li>
           <ul className="none">
@@ -101,9 +99,8 @@ export const Footer = () => {
           </ul>
         </li>         
       </ol>
-      <p className="footer__p center"><a href="tel:+447438155154">Call Us</a></p>
       <p className="footer__P center">Email: <a href="mailto:info@meksaccountingservices.com">info@meksaccountingservices.com</a></p>
-      <p className="footer__P center">Copyrights &copy; {year} Meks Accounting Services | <Link to="/Privacy">Privacy Policy</Link> | <Link to="/Terms">Terms & Conditions</Link> </p>
+      <p className="footer__P center">&copy; {year} Meks Accounting Services | <Link to="/Privacy">Privacy Policy</Link> | <Link to="/Terms">Terms & Conditions</Link> </p>
     </footer>
   )
 }
