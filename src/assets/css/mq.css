@@ -131,6 +131,7 @@
   .contact__div,
   .contact__figure {
     min-width: 50%;
+    min-height: 50vh;
   }
 
   .home.contact__form {
