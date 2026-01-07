@@ -211,8 +211,8 @@ a:active {
 /* // HEADER */
 .header {
   background-color: var(--header-bgcolor) ;
-  color: var(--font-color);
-  height: 50px;
+  color: var(--reverse-font-color);
+  min-height: 50px;
   padding: var(--padding-tb) var(--padding-side);
   display: flex;
   justify-content: space-between;
@@ -224,17 +224,19 @@ a:active {
 
 .headerDiv {
   display: flex;
-  align-items: center;
 }
 
-.header img {
-  width: 80px;
-  height: 50px;
+.header .icon {
+  font-size: 3rem;
+  margin-right: 0.25rem;
 }
 
 .title {
-  color: var(--bgcolor);
-  font-size: 1rem;
+  font-size: 0.8rem;
+}
+
+.title strong {
+  font-size: 1.5rem;
 }
 
 .header__nav {
@@ -243,7 +245,7 @@ a:active {
   box-shadow: 0 6px 5px -5px var(--border-color);
   font-weight: bold;
   width: 100%;
-  min-height: 100vh;
+  height: 100vh;
   flex-direction: column;
   position: absolute;
   top: 100%;
@@ -252,7 +254,6 @@ a:active {
 
 .header__ul {
   width: 100%;
-  margin-bottom: 60vh;
   padding: var(--padding-tb) var(--padding-side);
   display: flex;
   flex-direction: column;
@@ -269,8 +270,8 @@ a:active {
   box-shadow: 0px 0px 2px var(--btn-bgcolor);
 }
 
-.header__btn.active.yes:hover {
-  color: var(--header-bgcolor);
+.headerCopyright {
+  margin-top: 60vh;
 }
 
 /* // MAIN */

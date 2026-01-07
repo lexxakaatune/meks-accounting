@@ -5,21 +5,32 @@
   }
 
   /* header section */
-  .title {
-    font-size: 1.5rem;
+  .header {
+    padding: 1rem;
+  }
+
+  .header img {
+    width: 120px;
+    height: 60px;
   }
   
   .header__nav {
     background-color: transparent;
-    color: var(--font-color);
-    width: max-content;
+    width: fit-content;
     height: fit-content;
-    display: flex;    
+    padding: 0.5rem;
+    display: flex;
     position: static;
   }
 
   .header__ul {
+    margin-bottom: 0;
     flex-direction: row;
+  }
+
+  .headerCopyright {
+    position: absolute;
+    left: -99999px;
   }
 
   .header__btn {

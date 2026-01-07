@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { meksLogo } from "../assets/image";
+import { FaChartBar } from "react-icons/fa";
 
 export const Header = () => {
   const [toggle, setToggle] = useState('hide');
@@ -32,8 +33,12 @@ export const Header = () => {
   return (
     <header className='header'>
       <div className="headerDiv">
-        <img src={meksLogo} alt="vortex logo"/>
-        <h1 className='title nowrap offscreen'>MEKS Accounting Services</h1>
+        <FaChartBar className="icon" />
+        <h1 className='title nowrap '>
+          <strong>MEKS</strong> <br />
+          <small>Accounting</small> <br />
+          <small>Services</small>
+        </h1>
       </div>
       <nav className="header__nav hide">
         <ul className='header__ul none'>
@@ -53,7 +58,7 @@ export const Header = () => {
             }
           })}
         </ul>
-        <small className="center">&copy; {year} Meks Accounting Services | <Link to="/Privacy">Privacy Policy</Link> | <Link to="/Terms">Terms & Conditions</Link> </small>
+        <small className="center headerCopyright">&copy; {year} Meks Accounting Services | <Link to="/Privacy">Privacy Policy</Link> | <Link to="/Terms">Terms & Conditions</Link> </small>
       </nav>
       <button className="header__btn active yes" onClick={toggleNav}>menu</button>
     </header>

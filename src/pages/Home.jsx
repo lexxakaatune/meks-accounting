@@ -40,7 +40,7 @@ const Home = () => {
     <>
       <section className="hero">
         <div className="hero__div">
-          <h2 className="h2"> MEKS Accounting</h2>
+          <h2 className="h2"> MEKS Accounting Services</h2>
           <p className="hero__p hero__big-text"> <span className="nowrap">Your Trusted Partner for</span> <span className="nowrap">Stress-Free Accounting</span></p>
           <p className="hero__p">
             <small>At Meks Accounting Services, we provide reliable bookkeeping, VAT, and accounting solutions that help small and medium-sized businesses stay financially organized and compliant. Whether you’re a start-up or a growing business, we’re here to make your finances simpler, smarter, and more transparent.</small>
