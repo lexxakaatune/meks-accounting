@@ -37,31 +37,19 @@
     display: none;
   }
   /* first hero sec */
-  .hero1 {
+  .hero {
     display: flex;
     justify-content: center;   
     align-items: center;   
     gap: 10px;
   }
 
-  .hero1 .hero__div,
-  .hero1 .hero__figure {
+  .hero__div,
+  .hero__figure {
     max-width: 50%;
   }
 
-  /* //HERO SECTION */
-  .hero {
-    height: calc(100dvh - 50px);
-    flex-direction: row;    
-  }
-
-  .hero__div {
-    padding: 1rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
+  
 
   /* ABOUT US SECTION */
   .about {
