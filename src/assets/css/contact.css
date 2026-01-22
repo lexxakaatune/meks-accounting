@@ -1,4 +1,5 @@
 .contact__hero {
+  color: var(--reverse-font-color);
   background-image: var(--lg), url(/src/assets/images/contact.jpg);
   background-position: center;
   min-height: 40vh;

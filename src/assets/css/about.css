@@ -6,8 +6,13 @@
   background-size: cover;
   background-position: top;
   color: #fff;
+  text-shadow: 3px 5px 6px var(---bth-bgcolor);
   min-height: 50vh;
   padding: 0.5rem;
+}
+
+.about__hero .about__aside {
+  color: var(--reverse-font-color) !important;
 }
 
 .about__h2 {
@@ -17,6 +22,7 @@
 .about__section {
   margin-top: 0.5rem;
   margin-bottom: 1rem;
+  padding: 0.25rem;
 }
 
 .about__ul {
@@ -28,9 +34,14 @@
 
 .about__ul li {
   background-color: var(--highlight);
-  color: var(--font-color);
-  width: 200px;
+  color: var(--reverse-font-color);
+  text-shadow: 2px 3px 5px var(--font-color);
+  width: clamp(250px, 60%, 350px);
   margin: auto;
   padding: 0.25rem;
 }
 
+/* service page */
+.service__hero {
+  color: var(--reverse-font-color) !important;
+}

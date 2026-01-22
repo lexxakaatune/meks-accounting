@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const Service = () => {
   return (
     <>
-      <section className="service__hero">
+      <section className="service__hero active yes">
         <h2 className="h2">Our Professional Accounting Services</h2>
         <p>We offer a comprehensive range of accounting and bookkeeping services designed to support start-ups and small to medium-sized businesses. Our services help you stay financially organised, compliant with HMRC requirements, and confident in your financial decision-making.</p>
       </section>

@@ -14,7 +14,7 @@ const About = () => {
           </figcaption>
           <img src={aboutSmall} alt="another" />
         </figure>
-        <aside className="about__aside">
+        <aside className="about__aside active yes">
           <h2 className="h2">About Meks Accounting Services</h2>
           <p className="about__p">
             At Meks Accounting Services, we provide professional accounting support designed to simplify your financial management. Based in Manchester and serving clients across the UK, we help businesses maintain accurate books, manage taxes, and meet all compliance obligations.
@@ -39,7 +39,7 @@ const About = () => {
           <p className='about__P'>Our work is guided by the ethical principles promoted by the <strong>Association of Chartered Certified Accountants (ACCA)</strong>, ensuring that our services are delivered with integrity, objectivity, and professional competence always.</p>
         </section>
 
-        <section className='about__section'>
+        <section className='about__section center'>
           <h2 className="about__h2 center">Our Values</h2>
           <ul className=' about__ul none'>
             <li>

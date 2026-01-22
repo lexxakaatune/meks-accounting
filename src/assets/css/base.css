@@ -37,7 +37,7 @@ textarea {
   --reverse-font-color: #fff;
   --header-bgcolor: #0D47A1;
   --nav-bgcolor: #0D47A1;
-  --hero-bgcolor: #1E88E5;
+  --hero-bgcolor: #fff;
   --footer-bgcolor: #263238;
   --highlight: #43A047;
   --link-active: #0D47A1;
@@ -45,7 +45,7 @@ textarea {
   --link-hover: #42A5F5;
   --btn-bgcolor: #1E88E5;
   --shadow-color: #B0BEC5;
-  --lg: linear-gradient(rgba(30, 136, 229, 0.9), rgba(30, 136, 229, 0.3));
+  --lg: linear-gradient(rgba(30, 136, 229, 0.4), rgba(30, 136, 229, 0.9));
 
   /* // BORDERS */
   --border: 1px solid var(--border-color);
@@ -139,14 +139,18 @@ a:active {
 /* // UTILITY CLASSES */
 .active.yes {
   color: var(--link-active);
-  text-shadow: 0px 0px 5px var(--highlight);
-  box-shadow: 0px 0px 5px var(--highlight);
+  text-shadow: 0px 0px 5px var(--btn-bgcolor);
+  box-shadow: 0px 0px 5px var(--btn-bgcolor);
   padding: 0.25rem;
 }
 .active.yes:hover {
   color: inherit;
-  text-shadow: 1px 2px 5px var(--btn-bgcolor);
-  box-shadow: 0px 0px 5px var(--btn-bgcolor);
+  text-shadow: 1px 2px 5px var(--highlight);
+  box-shadow: 0px 0px 5px var(--highlight);
+}
+
+.active.yes.on {
+  box-shadow: 0px 0px 5px var(--highlight);
 }
 
 .bold {
@@ -210,8 +214,8 @@ a:active {
 
 /* // HEADER */
 .header {
-  background-color: var(--header-bgcolor) ;
-  color: var(--reverse-font-color);
+  background-color: var(--body-bgcolor) ;
+  color: var(--header-bgcolor);
   min-height: 50px;
   padding: var(--padding-tb) var(--padding-side);
   display: flex;

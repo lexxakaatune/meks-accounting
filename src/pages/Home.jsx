@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useRef } from "react";
 import { FaUserGraduate, FaMicrochip, FaHandsHelping, FaBalanceScale, FaPhoneAlt, FaComments, FaMailBulk} from "react-icons/fa";
 import { Link } from "react-router-dom";
 import {hero1, hero2, hero3, aboutBig, aboutSmall, cbp, vts, aap, cfp, bsr} from "../assets/image";
@@ -11,36 +11,46 @@ const Home = () => {
       imageSrc: hero1,
       imageAlt: 'Mr.Robert Davis photo',
       name: 'Mr. another',
-      work: 'another Supervisor'
+      work: 'another Supervisor',
+      active: 'off'
     },
     {
       ID: 1,
       imageSrc: hero2,
       imageAlt: 'Mr.Robert Davis photo',
       name: 'Mr. another',
-      work: 'another Supervisor'
+      work: 'another Supervisor',
+      active: 'off'
     },
     {
       ID: 2,
       imageSrc: hero3,
       imageAlt: 'another photo',
       name: 'Mr.Robert Davis',
-      work: 'Field Supervisor'
+      work: 'Field Supervisor',
+      active: 'off'
     }
   ]
   const [image, setImage] = useState(images[0]);
+  const heroImg = useRef(null);
+  console.log(heroImg);
 
   const toggleImg = (e) => {
     const ID = e.target.id;
-    console.log(ID)
+    const image = images[ID];
+    image.active = 'on';
     setImage(images[ID]);
+    console.log('array')
+    console.log(images[0].active)
+    console.log(images[1].active)
+    console.log(images[2].active)
   }
   
   return (
     <>
       <section className="hero">
         <div className="hero__div">
-          <h2 className="h2"> MEKS Accounting Services</h2>
+          <h2 className="h2 active yes"> MEKS Accounting Services</h2>
           <p className="hero__p hero__big-text"> <span className="nowrap">Your Trusted Partner for</span> <span className="nowrap">Stress-Free Accounting</span></p>
           <p className="hero__p">
             <small>At Meks Accounting Services, we provide reliable bookkeeping, VAT, and accounting solutions that help small and medium-sized businesses stay financially organized and compliant. Whether you’re a start-up or a growing business, we’re here to make your finances simpler, smarter, and more transparent.</small>
@@ -50,14 +60,14 @@ const Home = () => {
           </p>
         </div>
         <figure className="hero__figure">
-          <img id="heroImg" src={image.imageSrc} className="hero__figure_img" alt="join tester" title="join" width="100" height="100" />
+          <img id="heroImg" ref={heroImg} src={image.imageSrc} className="hero__figure_img" alt="join tester" title="join" width="100" height="100" />
           <figcaption className="hero__figcaption">
             {images.map((image) => (
               <img
                 key={image.ID}
                 id={image.ID}
                 onClick={ (e) => toggleImg(e)} 
-                className="img-icon active yes" 
+                className={image.imageSrc === heroImg.src ? "img-icon active yes on" : "img-icon active yes"}
                 src={image.imageSrc} 
                 alt={image.imageAlt} 
               />
