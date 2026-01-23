@@ -311,7 +311,7 @@ a:active {
 .footer__ul li {
   font-size: 1.2em;
   max-width: 300px;
-  flex-basis: 100px;
+  flex-basis: 200px;
   flex-grow: 1;
 
   a {    

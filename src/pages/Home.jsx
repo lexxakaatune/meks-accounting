@@ -111,31 +111,31 @@ const Home = () => {
           </p>          
 
           <div className="service__div">
-            <figure className="service__figure">
+            <figure className="service__figure active yes">
               <img src={cbp} alt="personal protection" />
               <figcaption className="service__figcaption">
                 <h3>Computerized Bookkeeping & Payroll</h3>
               </figcaption>
             </figure>
-            <figure className="service__figure">
+            <figure className="service__figure active yes">
               <img src={vts} alt="commercial security" />
               <figcaption className="service__figcaption">
                 <h3>VAT & Tax Services</h3>
               </figcaption>
             </figure>
-            <figure className="service__figure">
+            <figure className="service__figure active yes">
               <img src={aap} alt="Object protection" />
               <figcaption className="service__figcaption">
                 <h3>Annual Accounts Preparation</h3>
               </figcaption>
             </figure>
-            <figure className="service__figure">
+            <figure className="service__figure active yes">
               <img src={cfp} alt="security consulting" />
               <figcaption className="service__figcaption">
                 <h3>Cash Flow Projections</h3>
               </figcaption>
             </figure>
-            <figure className="service__figure">
+            <figure className="service__figure active yes">
               <img src={bsr} alt="security consulting" />
               <figcaption className="service__figcaption">
                 <h3>Business Set up and Registration</h3>

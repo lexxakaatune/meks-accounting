@@ -172,7 +172,7 @@
 
 .service__figure {
   background-color: #eee;
-  width: clamp(150px,80vw, 300px);
+  width: clamp(150px, 80vw, 300px);
   height: 200px;
   margin: 1rem auto 100px;
   display: flex;

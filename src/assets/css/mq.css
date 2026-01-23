@@ -6,6 +6,7 @@
 
   /* header section */
   .header {
+    color: var(--header-bgcolor);
     padding: 1rem;
   }
 
@@ -16,6 +17,7 @@
   
   .header__nav {
     background-color: transparent;
+    color: var(--header-bgcolor);
     width: fit-content;
     height: fit-content;
     padding: 0.5rem;
@@ -133,5 +135,17 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+  }
+
+  /* // sevices page */
+  .service__section {
+    box-shadow: 0px 2px 5px var(--highlight);
+    max-width: 50%;
+    margin: 1rem auto;
+    padding: 0.2rem;
+  }
+
+  .service__p {
+    max-width: 50%;
   }
 }

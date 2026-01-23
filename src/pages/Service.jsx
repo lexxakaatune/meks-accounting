@@ -9,6 +9,7 @@ const Service = () => {
         <h2 className="h2">Our Professional Accounting Services</h2>
         <p>We offer a comprehensive range of accounting and bookkeeping services designed to support start-ups and small to medium-sized businesses. Our services help you stay financially organised, compliant with HMRC requirements, and confident in your financial decision-making.</p>
       </section>
+
       <main className="main">
         <section className="service__section">
           <h2 className="service__h2">Computerised Bookkeeping & Payroll</h2>
@@ -79,6 +80,7 @@ const Service = () => {
 
         <section className="service__section">
           <h2 className="service__h2">Business Set-Up & Registration</h2>
+          <p className="service__p">We support start-ups and new business owners with setting up their business correctly from day one.</p>
           <p className="service__p">We support start-ups and new business owners with setting up their business correctly from day one.</p>
           <p className="service__P">Our business set-up services include:</p>
           <ul className="service__ul">

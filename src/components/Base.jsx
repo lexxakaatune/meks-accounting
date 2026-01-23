@@ -32,6 +32,7 @@ export const Header = () => {
 
   return (
     <header className='header'>
+      <Link to="/" className="none">
       <div className="headerDiv">
         <FaChartBar className="icon" />
         <h1 className='title nowrap '>
@@ -40,6 +41,7 @@ export const Header = () => {
           <small>Services</small>
         </h1>
       </div>
+      </Link>
       <nav className="header__nav hide">
         <ul className='header__ul none'>
           {Object.entries(pages).map(([page, to]) => {
